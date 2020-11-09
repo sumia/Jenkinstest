@@ -16,6 +16,7 @@ namespace Jenkinstest.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            //test
         }
 
         public IActionResult Index()
